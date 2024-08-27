@@ -76,9 +76,9 @@ function M.setup(colors, config)
         -- Normal		Normal text.
         Normal = { fg = theme.ui.fg, bg = not config.transparent and theme.ui.bg or "NONE" },
         -- NormalFloat	Normal text in floating windows.
-        NormalFloat = { fg = theme.ui.float.fg, bg = theme.ui.float.bg },
+        NormalFloat = { fg = theme.ui.float.fg, bg = "NONE" },
         -- FloatBorder	Border of floating windows.
-        FloatBorder = { fg = theme.ui.float.fg_border, bg = theme.ui.float.bg_border },
+        FloatBorder = { fg = "#ff9e3b", bg = "NONE" },
         -- FloatTitle	Title of floating windows.
         FloatTitle = { fg = theme.ui.special, bg = theme.ui.float.bg_border, bold = true },
         -- FloatFooter	Footer of floating windows.
@@ -122,11 +122,11 @@ function M.setup(colors, config)
         -- StatusLineNC	Status lines of not-current windows. Note: If this is equal to "StatusLine", Vim will use "^^^" in the status line of the current window.
         StatusLineNC = { fg = theme.ui.nontext, bg = theme.ui.bg_m3 },
         -- TabLine		Tab pages line, not active tab page label.
-        TabLine = { bg = theme.ui.bg_m3, fg = theme.ui.special },
+        TabLine = { bg = "NONE", fg = theme.ui.special },
         -- TabLineFill	Tab pages line, where there are no labels.
-        TabLineFill = { bg = theme.ui.bg },
+        TabLineFill = { bg = "NONE" },
         -- TabLineSel	Tab pages line, active tab page label.
-        TabLineSel = { fg = theme.ui.fg_dim, bg = theme.ui.bg_p1 },
+        TabLineSel = { fg = "#ff9e3b", bg = "NONE" },
         -- Title		Titles for output from ":set all", ":autocmd" etc.
         Title = { fg = theme.syn.fun, bold = true },
         -- Visual		Visual mode selection.

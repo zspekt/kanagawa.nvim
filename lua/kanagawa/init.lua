@@ -14,7 +14,7 @@ M.config = {
     keywordStyle = { italic = true },
     statementStyle = { bold = true },
     typeStyle = {},
-    transparent = false,
+    transparent = true,
     dimInactive = false,
     terminalColors = true,
     colors = { theme = { wave = {}, lotus = {}, dragon = {}, all = {} }, palette = {} },
