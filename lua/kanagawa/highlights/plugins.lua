@@ -318,7 +318,9 @@ function M.setup(colors, config)
         MiniIconsRed = { fg = theme.syn.special3 },
         MiniIconsYellow = { fg = theme.syn.identifier },
 
-        MiniIndentscopeSymbol = { fg = theme.syn.special1 },
+        -- MiniIndentscopeSymbol = { fg = theme.syn.special1 },
+        MiniIndentscopeSymbol =  { fg = "#ff5d62" },
+
         MiniIndentscopePrefix = { nocombine = true }, -- Make it invisible
 
         MiniJump = { link = "SpellRare" },
